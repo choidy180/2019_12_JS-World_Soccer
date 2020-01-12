@@ -1,0 +1,97 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+/* 메인 텍스트 */
+#head_text{
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 10px;
+    font-size: 30px;
+    background-color: #1349b2;
+    color: white;
+    font-weight: 800;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+}
+/* 메인 텍스트 배경 화면 */
+#head_back{
+    width: 100%;
+    background-color: #1349b2;   
+}
+body{
+    margin: 0;
+}
+/* 메뉴 바 */
+#menu_bar{
+    width: 100%;
+    border-bottom: solid 10px #eff2f8;
+}
+#menu_area{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+/* 메뉴 바 텍스트 */
+.menu_text{
+    font-size: 22px;
+    padding-right: 15px;
+    font-weight: 700;
+}
+/* 헤드라인 */
+#head_area{
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 3px solid #1349b2;
+    margin-bottom: 10px;
+}
+.head_news{
+    display: inline-flex;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* 많이 본 뉴스 */
+#head_rank{
+    position: relative;
+    right: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eff2f8;
+    vertical-align: middle;
+    font-size: 30px;
+    text-align: left;
+}
+.head_img{
+    display: inline-flex;
+    width: 25%;
+}
+h2{
+    margin: 0px;
+}
+#video_menu_bar{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.video_menu{
+    margin-right: 20px;
+    font-weight: 700;
+}
+#choice_video{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    border-bottom: solid 2px #1349b2;
+}
+.video_img{
+    width: 19%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+}
