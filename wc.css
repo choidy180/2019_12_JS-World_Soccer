@@ -4,7 +4,7 @@ html{
 }
 /* 메인 텍스트 */
 #head_text{
-    width: 1000px;
+    width: 80%;
     margin: 0 auto;
     padding-left: 10px;
     font-size: 30px;
@@ -14,6 +14,7 @@ html{
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 10px;
+    border: 1px solid #f00;
 }
 /* 메인 텍스트 배경 화면 */
 #head_back{
@@ -22,6 +23,7 @@ html{
 }
 body{
     margin: 0;
+    padding: 0px;
 }
 /* 메뉴 바 */
 #menu_bar{
@@ -29,7 +31,7 @@ body{
     border-bottom: solid 10px #eff2f8;
 }
 #menu_area{
-    width: 1000px;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 8px;
 }
@@ -299,10 +301,94 @@ h2{
     padding-top: 8px;
     padding-bottom: 8px;
     border-top: 1px solid #eff2f8;
+    border-bottom: 1px solid #eff2f8;
 }
 .rank_choice_league{
     width: 24.8%;
     float: left;
     text-align: center;
     font-size: 11.5px;
+}
+#rank_intro{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #eff2f8;
+}
+#intro_team{
+    float: left;
+    width: 50%;
+}
+#intro_team_text{
+    padding-left: 30px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.intro_game{
+    float: left;
+    width: 10%;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.rank_main{
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.rank_team{
+    float: left;
+    width: 50%;
+}
+.rank_rank{
+    float: left;
+    width: 30px;
+    color: #36c;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.rank_img{
+    float: left;
+    width: 15px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+.rank_name{
+    font-size: 12px;
+}
+.rank_num{
+    float: left;
+    width: 49.5%;
+}
+.rank_game{
+    float: left;
+    width: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.rank_win{
+    float: left;
+    width: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.rank_draw{
+    float: left;
+    width: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.rank_lose{
+    float: left;
+    width: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.rank_total{
+    float: left;
+    width: 28px;
+    font-size: 14px;
+    text-align: center;
 }
