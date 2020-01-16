@@ -21,3 +21,50 @@
 
 
 스키마 ▶ 클래스 ▶ 이걸로 뽑아낸게 
+
+
+//메인페이지
+router.get('/', function (req, res, next) {
+  var sess=req.session;
+  res.render('index', {title: "Soccor", page: 'main/main.ejs', sess:sess})
+});
+
+
+// 로그인 페이지 이동
+router.get('/login', function (req, res, next) {
+  var sess=req.session;
+  res.render('index', { title: 'Soccor', page: 'user/login.ejs',sess:sess });
+});
+
+
+//회원가입 페이지 이동
+router.get('/join', function (req, res, next) {
+  res.render('index', { title: 'Soccor', page: 'user/join.ejs' });
+});
+
+
+//사진 페이지 이동
+router.get('/picture', function (req, res, next) {
+  res.render('index', { title: 'Soccor', page: 'content/picture.ejs' });
+});
+
+
+//비디오 페이지 이동
+router.get('/video', function (req, res, next) {
+  res.render('index', { title: 'Soccor', page: 'content/video.ejs' });
+});
+
+
+//랭크 페이지 이동
+router.get('/rank', function (req, res, next) {
+  res.render('index', { title: 'Soccor', page: 'content/rank.ejs' });
+});
+ 
+ 
+//로그아웃 요청
+router.get('/logout', function(req, res, next) {
+  var sess = req.session;
+  sess.destroy();
+  res.redirect('/')
+});
+
